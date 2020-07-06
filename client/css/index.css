@@ -1,0 +1,105 @@
+/* 登录 */
+.header-con,.banner-con,.c-conter{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    background-color: #ffffff;
+}
+.header-con{
+    height: 100px;
+}
+.header-con>.a-logo{
+    width: 125px;
+    height: 100px;
+    background-image: url(../images/fction.png);
+    background-position: -308px -57px;
+    line-height: 500px;
+    overflow: hidden;
+    float: left;
+}
+.header-con>.a-right{
+    width: 304px;
+    height: 100px;
+    background-image: url(../images/fction.png);
+    background-position: 0 0;
+    float: right;
+}
+#banner{
+    background-image: url(../images/login-banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+.banner-con{
+    height: 650px;
+}
+.banner-con>.c-conter{
+    padding: 50px 20px;
+    height: 650px;
+}
+.banner-con>.c-conter>.c-login{
+    width: 360px;
+    height: 433px;
+    background-color: #fff;
+    float: right;
+}
+.banner-con>.c-conter>.c-login>.c-tab{
+    width: 360px;
+    height: 50px;
+    color: #666;
+    
+}
+.banner-con>.c-conter>.c-login>.c-tab>.c-tab-title{
+    width: 180px;
+    height: 49px;
+    float: left;
+    line-height: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.banner-con>.c-conter>.c-login>.c-tab>.c-tab-title>span{
+    display: block;
+    color: #ccc;
+    float: right;
+}
+.banner-con>.c-conter>.c-login>.c-tab>.active{
+    color: lightcoral;
+}
+
+.banner-con>.c-conter>.c-login>.c-tab-conter{
+    width: 360px;
+    height: 271px;
+    padding-top: 40px;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box{
+    width: 300px;
+    height: 271px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.tive{
+  display: none;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form{
+    width: 300px;
+    height: 67px;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form>.c-form-a{
+    width: 298px;
+    height: 46px;
+    border: 1px solid #000;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form>.c-form-a>input{
+    width: 240px;
+    height: 32px;
+    line-height: 48px;
+    margin-left: 40px;
+    border: 0;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form>.c-form-b{
+    width: 300px;
+    height: 21px;
+}
