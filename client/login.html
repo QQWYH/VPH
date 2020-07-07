@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/login.js"></script>
     <title>Document</title>
 </head>
 
@@ -23,26 +25,46 @@
             <div class="c-conter">
                 <div class="c-login">
                     <div class="c-tab">
-                        <div class="c-tab-title active">手机号登陆
+                        <div class="c-tab-title">手机号登陆
                             <span>|</span>
                         </div>
-                        <div class="c-tab-title">账号登录</div>
+                        <div class="c-tab-title active">账号登录</div>
                     </div>
                     <div class="c-tab-conter">
-                        <div class="c-conter-box tive"></div>
-                        <div class="c-conter-box">
+                        <div class="c-conter-box"></div>
+                        <div class="c-conter-box tive">
                             <div class="c-form">
                                 <div class="c-form-a">
-                                    <input type="text">
+                                    <input type="text" id="username">
                                 </div>
                                 <div class="c-form-b"><span></span></div>
                             </div>
-                            <div class="c-form"></div>
+                            <div class="c-form">
+                                <div class="c-form-a">
+                                    <input type="password" id="password">
+                                </div>
+                                <div class="c-form-b"><span></span></div>
+                            </div>
+                            <div class="code">
+                                <div class="c-txt">
+                                    <input type="text" id="c-tcode">
+                                </div>
+                                <div class="c-code"></div>
+                            </div>
+                            <button class="submit">
+                                <span>登录</span>
+                            </button>
+                            <div class="c-bottom">
+                                <button class="btn">注册</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer-con">
+        <p>Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
     </div>
 </body>
 

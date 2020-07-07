@@ -1,5 +1,5 @@
 /* 登录 */
-.header-con,.banner-con,.c-conter{
+.header-con,.banner-con,.c-conter,.footer-con{
     width: 1000px;
     margin: 0 auto;
 }
@@ -59,6 +59,8 @@
     font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    
 }
 .banner-con>.c-conter>.c-login>.c-tab>.c-tab-title>span{
     display: block;
@@ -66,13 +68,15 @@
     float: right;
 }
 .banner-con>.c-conter>.c-login>.c-tab>.active{
-    color: lightcoral;
+    color: #f10180;
+    display: block;
 }
 
 .banner-con>.c-conter>.c-login>.c-tab-conter{
     width: 360px;
     height: 271px;
     padding-top: 40px;
+    position: relative;
 }
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box{
     width: 300px;
@@ -80,8 +84,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box:nth-child(1){
+    position: absolute;
+    left: 8%;
+    display: none;
+}
 .banner-con>.c-conter>.c-login>.c-tab-conter>.tive{
-  display: none;
+  display: block;
 }
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form{
     width: 300px;
@@ -91,6 +100,7 @@
     width: 298px;
     height: 46px;
     border: 1px solid #000;
+    line-height: 43px;
 }
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form>.c-form-a>input{
     width: 240px;
@@ -102,4 +112,99 @@
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-form>.c-form-b{
     width: 300px;
     height: 21px;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code{
+    width: 300px;
+    height: 50px;
+   
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt{
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    float: left;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-code{
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt>#c-tcode{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.submit{
+    width: 300px;
+    height: 50px;
+    background-color: #f10180;
+    margin-top: 40px;
+    border: 1px solid #f10180;
+    opacity: 0.9;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.submit:hover{
+    opacity: 1;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.c-bottom>.btn{
+   background-color: #fff;
+   color: #ccc;
+   width: 60px;
+   height: 30px;
+   border: 0;
+  margin: 20px 0 0 119px;
+  outline: none;
+  cursor: pointer;
+}
+.footer-con{
+    height: 78px;
+}
+.footer-con>p{
+    color: #ccc;
+    text-align: center;
+    margin-top: 34px;
+}
+/* 注册 */
+.banner-con>.c-conter>.c-register{
+    width: 360px;
+    height: 536px;
+    background-color: #fff;
+    float: right;
+}
+.banner-con>.c-conter>.c-register>.c-top{
+    width: 300px;
+    height: 51px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.banner-con>.c-conter>.c-register>.c-top>.c-top-h{
+    float: right;
+    height: 51px;
+    line-height: 51px;
+}
+.banner-con>.c-conter>.c-register>.c-top>.c-top-h>a{
+    color: #f10180;
+    font-size: 14px;
+}
+.banner-con>.c-conter>.c-register>.c-top>.c-top-lg{
+    line-height: 51px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}
+.banner-con>.c-conter>.c-register>.c-reg-body{
+    width: 360px;
+    height: 455px;
+}
+.banner-con>.c-conter>.c-register>.c-reg-body>.c-conter{
+    width: 300px;
+    height: 395px;
+    padding:30px;
 }
