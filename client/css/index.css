@@ -208,3 +208,49 @@
     height: 395px;
     padding:30px;
 }
+.c-reg-body>.c-conter>.c-register{
+    width: 300px;
+    height: 67px;
+    margin-bottom: 8px;
+}
+.c-reg-body>.c-conter>.c-register>.c-regtxt{
+    width: 300px;
+    height: 45px;
+    border: 1px solid #000;
+    line-height: 46px;
+}
+.c-reg-body>.c-conter>.c-register>.c-regtxt>input{
+    width: 250px;
+    height: 30px;
+    border: 0;
+    margin-left: 50px;
+}
+.c-reg-body>.c-conter>.c-register>.hint{
+    width: 300px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.c-reg-body>.c-conter>.c-register>.c-reg{
+    height: 42px;
+    width: 300px;
+}
+.c-reg-body>.c-conter>.c-register>.c-reg>.c-regcode{
+    width: 150px;
+    height: 67px;
+    float: left;
+    line-height: 42px;
+}
+.c-reg-body>.c-conter>.c-register>.c-reg>.c-regcode input{
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 53px;
+    
+}
+.c-reg-body>.c-conter>.c-register>.c-reg>.c-codetxt{
+    width: 120px;
+    height: 42px;
+    float: right;
+    border:  1px solid #000;
+}
