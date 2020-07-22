@@ -1,0 +1,10 @@
+.top-con{
+    width: 1170px;
+    margin: 0 auto;
+}
+#top{
+    background-color: lightcoral;
+}
+.top-con{
+    height: 28px;
+}
