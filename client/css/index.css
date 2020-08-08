@@ -1,8 +1,69 @@
-/* 登录 */
-.header-con,.banner-con,.c-conter,.footer-con{
-    width: 1000px;
+/* 公共 */
+.header-con,.banner-cn,.goods-con,.banner-con,.c-conter,.footer-con{
+    width: 1170px;
     margin: 0 auto;
 }
+#baner{
+   background-image: url(../images/baner.jpg);
+    padding-top: 30px;
+    height: 474px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.banner-cn{
+    width: 1150px;
+   height: 400px;
+   background-color: white;
+   padding: 10px;
+   border: 1px solid gray;
+}
+.banner-cn .slider{
+    width: 1146px;
+    height: 400px;
+    background: gray;
+}
+
+.goods-con{
+    min-height: 1000px;
+}
+.goods-con .goods-a{
+    height: 388px;
+}
+.goods-con .goods-a .img{
+    height: 120px;
+}
+.goods-con .goods-a .a-bottom{
+    height: 396px;
+    width: 1188px;
+   
+}
+.goods-con .goods-a .a-bottom .b-left{
+    width: 396px;
+    height: 268px;
+    float: left;
+    
+}
+.goods-con .goods-a .a-bottom .b-conter{
+    width: 396px;
+    height: 268px;
+    float: left;
+}
+.goods-con .goods-a .a-bottom .b-right{
+    width: 396px;
+    height: 268px;
+    float: left;
+}
+.goods-con .goods-a .a-bottom a{
+    display: block;
+    width: 378px;
+    height: 250px;
+}
+.goods-con .goods-a .a-bottom a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* 登录 */
 #header{
     background-color: #ffffff;
 }
