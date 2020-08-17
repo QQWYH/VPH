@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./js/jquery-3.4.1.js"></script>
-    <script src="./js/login.js"></script>
+    <script src="./js/resgister.js"></script>
     <title>Document</title>
 </head>
 
@@ -36,28 +36,29 @@
                             <!-- 账号 -->
                             <div class="c-register">
                                 <div class="c-regtxt"><input type="text" id="name" placeholder="请输入账号"></div>
-                                <div class="hint"><span></span></div>
+                                <div class="hint"><span id="hint"></span><i id="hint-z"></i></div>
+                            </div>
+
+                            <!-- 密码 -->
+                            <div class="c-register">
+                                <div class="c-regtxt"><input type="password" id="pass" placeholder="请输入密码"></div>
+                                <div class="hint"><span id="hint-b"></span></div>
+                            </div>
+
+                            <!-- 密码 -->
+                            <div class="c-register">
+                                <div class="c-regtxt"><input type="password" id="passone" placeholder="请重新输入密码"></div>
+                                <div class="hint"><span id="hint-c"></span></div>
                             </div>
                             <!-- 验证码 -->
                             <div class="c-register">
                                 <div class="c-reg">
                                     <div class="c-regcode"><input type="text" id="code" placeholder="请输入验证码"></div>
-                                    <div class="c-codetxt"></div>
+                                    <div class="c-codetxt" id="codes"></div>
                                 </div>
-                                <div class="hint"><span></span></div>
+                                <div class="hint"><span id="hint-e"></span></div>
                             </div>
-                            <!-- 密码 -->
-                            <div class="c-register">
-                                <div class="c-regtxt"><input type="text" id="name" placeholder="请输入密码"></div>
-                                <div class="hint"><span></span></div>
-                            </div>
-
-                            <!-- 密码 -->
-                            <div class="c-register">
-                                <div class="c-regtxt"><input type="text" id="name" placeholder="请重新输入密码"></div>
-                                <div class="hint"><span></span></div>
-                            </div>
-                            <button class="reglit">
+                            <button class="reglit" id="regbtn">
                                 <span>注册</span>
                             </button>
                         </div>

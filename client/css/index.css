@@ -1,5 +1,6 @@
 /* 公共 */
-.header-con,.banner-cn,.goods-con,.banner-con,.c-conter,.footer-con{
+.header-con,.banner-cn,.goods-con,.banner-con,.c-conter,.footer-con
+,.nvgoodslist-con,.nv-top{
     width: 1170px;
     margin: 0 auto;
 }
@@ -62,6 +63,26 @@
     width: 100%;
     height: 100%;
     border-radius: 18px;
+}
+
+/* 商品列表 */
+#l-nav{
+  background-image: url(../images/nv-list.jpg);
+  background-position: 50%;
+}
+.nvgoodslist-con{
+    height: 360px;
+}
+.nv-top{
+    height: 372px;
+   
+}
+.nv-top .nv-title{
+    height: 50px;
+}
+.nv-top .nv-show{
+    height: 307px;
+    background-color: gray;
 }
 /* 登录 */
 #header{
@@ -182,13 +203,28 @@
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt{
     width: 150px;
     height: 50px;
-    background-color: gray;
+   
     float: left;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt>#s-text{
+    width: 150px;
+    height:30px;
+    border: 0;
+    border:1px solid gray;
+}
+.banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt>#hint-s{
+    display: block;
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
 }
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-code{
     width: 100px;
     height: 50px;
     float: right;
+    line-height: 50px;
+    background-color: #666;
+    text-align: center;
 }
 .banner-con>.c-conter>.c-login>.c-tab-conter>.c-conter-box>.code>.c-txt>#c-tcode{
     width: 150px;
@@ -291,6 +327,7 @@
     height: 20px;
     font-size: 12px;
     line-height: 20px;
+    margin-top:10px ;
 }
 .c-reg-body>.c-conter>.c-register>.c-reg{
     height: 42px;
@@ -314,6 +351,9 @@
     height: 42px;
     float: right;
     border:  1px solid #000;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
 }
 .c-reg-body>.c-conter>.reglit{
     width: 300px;

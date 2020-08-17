@@ -1,4 +1,4 @@
-.top-con,.header-con,.header-con,.nav-con{
+.top-con,.header-con,.header-con,.nav-con,.footers-con,.bottom{
     width: 1170px;
     margin: 0 auto;
 }
@@ -268,4 +268,192 @@
 }
 .nav-con .bg .bg-nav ol:hover .n-box{
     display: block;
+}
+/* footer */
+#footers{
+    border-top: 1px solid #ccc;
+}
+.footers-con{
+    height: 450px;
+   
+
+}
+.footers-con .footer-vip{
+    height: 105px;
+}
+.footers-con .footer-vip .vip-bg{
+    width: 960px;
+    height: 105px;
+    margin:  0 auto;
+}
+.footers-con .footer-vip .vip-bg li{
+    display:block;
+    width: 113px;
+    height: 105px;
+    float: left;
+}
+.footers-con .footer-vip .vip-bg li .v-bg{
+    display: block;
+    width: 72px;
+    height: 75px;
+    float: left;
+}
+.bg-01{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: 0 0;
+}
+.bg-02{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -110px 0;
+}
+.bg-03{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -236px 0;
+}
+.bg-04{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -355px 0;
+}
+.bg-05{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -478x 0;
+}
+.bg-06{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -604px 0;
+}
+.bg-07{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -725px 0;
+}
+.bg-08{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-image: url(../images/footer.png);
+    background-position: -845px 0;
+}
+.footers-con .footer-list{
+    height: 146px;
+    margin-top: 30px;
+    margin: 37px 0 25px;
+}
+.footers-con .footer-list .list-show{
+    width: 960px;
+    margin: 0 auto;
+    height: 146px;
+}
+.footer-list .list-box{
+    width: 140px;
+    height: 146px;
+    font-size: 12px;
+    float: left;
+    padding-left: 15px;
+    border-right: 1px solid #ccc;
+}
+.footer-list .list-box dd{
+    padding-left: 8px;
+   padding-top: 5px;
+    background: url(../images/footer-list.png) no-repeat -6px -494px;
+}
+.border-none{
+    border: none !important;
+    width: 136px;
+}
+.footers-con .footer-info{
+    height: 167px;
+}
+.footer-info .info-show{
+    width: 960px;
+   height: 167px;
+    margin: 0 auto;
+
+}
+.footer-info .info-show .info-nav{
+    height: 30px;
+    background-color: hotpink;
+}
+.footer-info .info-show .info-nav ul{
+    width: 650px;
+    margin: 0 auto;
+    height: 30px;
+}
+.footer-info .info-show .info-nav ul li{
+    float: left;
+    margin: 0 5px;
+}
+.footer-info .info-show .info-nav ul li a{
+    font-size: 12px;
+    color: white;
+    line-height: 30px;
+}
+.footer-info .info-show .info-nav ul li span{
+    color: white;
+}
+.footer-info .info-show .info-p{
+    width: 960px;
+    height: 73px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.footer-info .info-show .info-p p {
+    text-align: center;
+}
+.footer-info .info-show .info-p p a {
+    color: gray;
+}
+.bottom{
+    height: 40px;
+  
+}
+.bottom .btm-bg{
+    width: 790px;
+    height: 40px;
+    margin: 0 auto;
+}
+.bottom .btm-bg a{
+    display: block;
+    width: 110px;
+    height: 40px;
+    float: left;
+}
+.b-bg1{
+    background-image: url(../images/footer-list.png);
+}
+.b-bg2{
+    background-image: url(../images/footer-list.png);
+    background-position-y: -150px;
+}
+.b-bg3{
+    background-image: url(../images/footer-list.png);
+    background-position-y: 289px;
+}
+.b-bg4{
+    background-image: url(../images/footer-list.png);
+    background-position-y: -300px;
+}
+.b-bg5{
+    background-image: url(../images/footer-list.png);
+    background-position-y: -350px;
+}
+.b-bg6{
+    background-image: url(../images/footer-list.png);
+    background-position-y: -400px;
+}
+.b-bg7{
+    background-image: url(../images/footer-list.png);
+    background-position-y: -450px;
 }

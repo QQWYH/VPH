@@ -35,23 +35,25 @@
                         <div class="c-conter-box tive">
                             <div class="c-form">
                                 <div class="c-form-a">
-                                    <input type="text" id="username">
+                                    <input type="text" id="username" placeholder="请输入账号">
                                 </div>
-                                <div class="c-form-b"><span></span></div>
+                                <div class="c-form-b"><span id="hint-user"></span></div>
                             </div>
                             <div class="c-form">
                                 <div class="c-form-a">
-                                    <input type="password" id="password">
+                                    <input type="password" id="password" placeholder="请输入密码">
                                 </div>
-                                <div class="c-form-b"><span></span></div>
+                                <div class="c-form-b"><span id="hint-pass"></span></div>
                             </div>
                             <div class="code">
                                 <div class="c-txt">
-                                    <input type="text" id="c-tcode">
+                                    <input type="text" id="s-text" placeholder="请输入验证码"><br>
+                                    <span id="hint-s"></span>
                                 </div>
-                                <div class="c-code"></div>
+                                <div class="c-code" id="s-code"></div>
+                                <span id="hint-s"></span>
                             </div>
-                            <button class="submit">
+                            <button class="submit" id="submit">
                                 <span>登录</span>
                             </button>
                             <div class="c-bottom">
