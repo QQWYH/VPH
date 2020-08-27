@@ -56,7 +56,10 @@ $(() => {
             $(".carbtn").on("click", function () {
                 let id = url;
                 let username = localStorage.getItem("username");
-                console.log(id, username)
+                console.log(id, username);
+                $.ajax({
+
+                })
             })
 
         }
