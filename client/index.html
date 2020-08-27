@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/slider.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/showname.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 
 <body>
@@ -24,9 +28,28 @@
             </div>
             <ul class="t-nav">
                 <li>
-                    <span>请登录</span>
+                    <span id="t-name">请登录</span>
+                    <i class="gd"></i>
                     <div class="n-box">
-
+                        <div class="n-top">
+                            <div class="n-bgtp"></div>
+                            <div class="n-bgbox">
+                                <span>
+                                    <a id="n-bgbox">您好，请登录</a>
+                                </span>
+                                <span>
+                                    <a id="logout">注销</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="n-bottom">
+                            <span>我的收藏</span>
+                            <span>我的订单</span>
+                            <span>零钱</span>
+                            <span>我的优惠卷</span>
+                            <span>我的唯品币</span>
+                            <span>唯品金融</span>
+                        </div>
                     </div>
                 </li>
                 <li>
@@ -40,7 +63,7 @@
                 <li>我的订单</li>
                 <li>
                     <span>我的特卖</span>
-                    <div class="t-box"></div>
+                    <div class="t-box"> </div>
                 </li>
                 <li><span>会员俱乐部</span>
                     <div class="t-box"></div>
@@ -78,7 +101,7 @@
                 </a>
                 <div class="bg-nav">
                     <ol>
-                        <a href="">
+                        <a href="../client/nvgoodSow.html">
                             <span>女装/男装/内衣</span>
                         </a>
                         <div class="n-box"></div>
@@ -131,7 +154,7 @@
                 </div>
             </li>
             <li>
-                <a href="#">
+                <a href="./index.html">
                     <span>首页</span>
                 </a>
             </li>
@@ -152,7 +175,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="./nvgoodSow.html">
                     <span>女装</span>
                 </a>
             </li>
@@ -194,10 +217,24 @@
         </ul>
     </div>
     <div id="baner">
-        <div class="banner-cn">
+        <div class="bannercn">
             <div class="slider">
-                <a href="#"><img src="./images/baner-gos.jpg" alt=""></a>
+                <ul class="sliderNav">
+                    <li>
+                        <img src="./images/baner-gos.jpg" alt="">
+                    </li>
+                    <li>2</li>
+                </ul>
+                <div class="sliderControl">
+                    <span class="left">&lt;</span>
+                    <span class="right">&gt;</span>
+                </div>
+                <ol class="sliderList">
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
             </div>
+
         </div>
     </div>
     <div id="goods">
@@ -207,17 +244,17 @@
                     <img src="./images/goods.jpg" alt="">
                 </div>
                 <div class="a-bottom">
-                    <div class="b-left">
+                    <div class="a-left">
                         <a href="#">
                             <img src="./images/b-btom.jpg" alt="">
                         </a>
                     </div>
-                    <div class="b-conter">
+                    <div class="a-conter">
                         <a href="#">
                             <img src="./images/b-btoma.webp" alt="">
                         </a>
                     </div>
-                    <div class="b-right">
+                    <div class="a-right">
                         <a href="#">
                             <img src="./images/b-btomb.webp" alt="">
                         </a>
@@ -225,9 +262,33 @@
                 </div>
             </div>
             <div class="goods-b">
-                1
-            </div>
+                <div class="b-top">
+                    <img src="./images/today_DDp.png" alt="">
+                </div>
+                <div class="b-left">
+                    <ul>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                        <li><span>精品</span></li>
+                    </ul>
+                </div>
+                <div class="conter">
+                    <ul>
+                        <li id="conter-list">
 
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
     </div>

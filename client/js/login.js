@@ -65,7 +65,7 @@ $(() => {
                 if (data.error == 0) {
                     alert(data.msg);
                     localStorage.username = obj.username;
-                    window.location.href = "../index.html";
+                    window.location.href = "../client/index.html";
                     $("#username").val("");
                     $("#password").val("");
                 } else {

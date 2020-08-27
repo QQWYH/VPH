@@ -56,18 +56,82 @@
 }
 .t-nav li .n-box{
     top: 28px;
+    left: -1px;
     width: 290px;
     height: 143px;
-    background-color: red;
     position: absolute;
     display: none;
+    background-color: white;
 }
 .t-nav li:nth-child(1):hover{
-    background-color: red;
     z-index: 20;
 }
 .t-nav li:hover .n-box{
     display: block;
+    background-color: white;
+    border: 1px solid gray;
+}
+.t-nav li:hover .n-box .n-top{
+    width: 240px;
+    height: 38px;
+    margin: 5px 5px;
+    padding: 15px 20px 0;
+}
+.t-nav li:hover .n-box .n-top .n-bgtp{
+    width: 38px;
+    height: 38px;
+    float: left;
+    background-image: url(../images/sprites-hash.png);
+    background-position: -164px -142px;
+}
+.t-nav li:hover .n-box .n-top .n-bgbox{
+    width: 180px;
+    height: 33px;
+    float: left;
+    margin-left: 10px;
+    border-bottom: 1px dashed #666 ;
+}
+.t-nav li:hover .n-box .n-top .n-bgbox #logout{
+    width: 30px;
+    height: 20px;
+    float:right;
+    display: none;
+}
+.t-nav li:hover .n-box .n-bottom{
+    width: 280px;
+    height: 78px;
+    margin: 5px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.t-nav li:hover .n-box .n-bottom span{
+    display: block;
+    width: 120px;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    color: #000;
+}
+.t-nav>li:nth-child(1) .gd{
+    display: block;
+    width: 80px;
+    height: 5px;
+    display: none;
+    border: 0;
+    position: absolute;
+    top: 24;
+}
+.t-nav li:nth-child(1):hover{
+    width: 78px;
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: 0;
+}
+.t-nav li:nth-child(1):hover .gd{
+    display: block;
+    background-color: white;
+    z-index: 30;
 }
 .t-nav li .d-box{
     width: 460px;
@@ -92,6 +156,7 @@
 }
 
 .t-nav li:hover .t-box{
+    width: 78px;
     display: block;
     border: 1px solid gray;
     background-color: white;
@@ -99,18 +164,21 @@
     color: blueviolet;
 }
 .t-nav li:nth-child(5):hover{
+    width: 78px;
     border-bottom: 0;
     border: 1px solid gray;
     background-color: white;
     border-bottom: 0;
 }
 .t-nav li:nth-child(6):hover{
+    width: 78px;
     border-bottom: 0;
     border: 1px solid gray;
     background-color: white;
     border-bottom: 0;
 }
 .t-nav li:nth-child(7):hover{
+    width: 78px;
     border-bottom: 0;
     border: 1px solid gray;
     background-color: white;
@@ -230,6 +298,7 @@
     position: absolute;
     top: 43px;
     display: none;
+    z-index: 20;
 }
 .nav-con .bg:hover .bg-nav{
     display: block;

@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/showname.js"></script>
+    <script src="./js/Pagination.js"></script>
+    <script src="./js/nvgoodShow.js"></script>
     <title>Document</title>
 </head>
 
@@ -24,8 +28,29 @@
             </div>
             <ul class="t-nav">
                 <li>
-                    <span>请登录</span>
-                    <div class="n-box"></div>
+                    <span id="t-name">请登录</span>
+                    <i class="gd"></i>
+                    <div class="n-box">
+                        <div class="n-top">
+                            <div class="n-bgtp"></div>
+                            <div class="n-bgbox">
+                                <span>
+                                    <a id="n-bgbox">您好，请登录</a>
+                                </span>
+                                <span>
+                                    <a id="logout">注销</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="n-bottom">
+                            <span>我的收藏</span>
+                            <span>我的订单</span>
+                            <span>零钱</span>
+                            <span>我的优惠卷</span>
+                            <span>我的唯品币</span>
+                            <span>唯品金融</span>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <span> 注册</span>
@@ -38,7 +63,7 @@
                 <li>我的订单</li>
                 <li>
                     <span>我的特卖</span>
-                    <div class="t-box"></div>
+                    <div class="t-box"> </div>
                 </li>
                 <li><span>会员俱乐部</span>
                     <div class="t-box"></div>
@@ -76,7 +101,7 @@
                 </a>
                 <div class="bg-nav">
                     <ol>
-                        <a href="">
+                        <a href="../client/nvgoodSow.html">
                             <span>女装/男装/内衣</span>
                         </a>
                         <div class="n-box"></div>
@@ -129,7 +154,7 @@
                 </div>
             </li>
             <li>
-                <a href="#">
+                <a href="./index.html">
                     <span>首页</span>
                 </a>
             </li>
@@ -150,7 +175,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="./nvgoodSow.html">
                     <span>女装</span>
                 </a>
             </li>
@@ -191,20 +216,7 @@
             </li>
         </ul>
     </div>
-    <div id="l-nav">
-        <div class="nvgoodslist-con">
-        </div>
-    </div>
-    <div class="nv-top">
-        <div class="nv-title">
-            <div></div>
-            <p></p>
-            <h3></h3>
-        </div>
-        <div class="nv-show">
-
-        </div>
-    </div>
+    <div class="nvgoodShow"></div>
 </body>
 
 </html>
