@@ -63,9 +63,32 @@ $(() => {
             lock = false;
         } else {
             return;
-            // lock = true;
         }
 
     })
+
+    $.ajax({
+        type: "get",
+        url: "../server/index.php",
+        dataType: "json",
+        success(data) {
+            let html = data.msg.map(item => {
+                return `
+                <div class="listshow-item">
+                <div class="img">
+                    <img src="${item.img}">
+                </div>
+                <div class="item-txt">
+                    <h3>${item.name}</h3>
+                    <h4>${item.num}折</h4>
+                </div>
+            </div>
+                `
+            }).join("");
+            $(".listshow").html(html);
+        }
+    })
+
+
 
 })

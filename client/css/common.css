@@ -51,6 +51,15 @@
     text-align: center;
     position: relative;
 }
+.t-nav .tm .t-box{
+    width: 80px;
+}
+.t-nav .tm .t-box a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    color: #000;
+}
 .t-nav>li:hover{
     color: #f10180;
 }
@@ -148,7 +157,7 @@
 .t-nav li .t-box{
   top: 28px;
     width: 80px;
-    height: 100px;
+    /* height: 100px; */
     position: absolute;
     display: none;
     z-index: 20;
@@ -247,6 +256,15 @@
     margin-top: 2px;
     background-color: #fa2a83;
 }
+.header-con .car{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
 .nav-con{
     height: 43px;
 }

@@ -1,5 +1,6 @@
 $(() => {
     let url = location.search.split('=')[1];
+    // let goodsArr = [];
     $.ajax({
         type: "get",
         data: { url },
@@ -7,6 +8,7 @@ $(() => {
         dataType: "json",
         success(data) {
             let html = data.map(item => {
+                // goodsArr = item
                 return `
                 <div class="show">
                 <div class="f-show">
@@ -22,7 +24,7 @@ $(() => {
                     <div class="pib-title">
                         <a href="#"><img src="${item.logo}"></a>
                         <p class="pib-title-data">
-                           ${item.name}
+                           ${item.goodsname}
                         </p>
                     </div>
                     <div class="pib-priver">
@@ -42,7 +44,7 @@ $(() => {
                         <span>数量：</span>
                         <span class="count">
                             <button>-</button>
-                            <div class="count-n"><input type="text" value="1"></div>
+                            <div class="count-n"><input id="num" type="text" value=""></div>
                             <button>+</button>
                         </span>
                     </div>
@@ -54,10 +56,15 @@ $(() => {
             }).join("");
             $("#listshow").html(html)
             $(".carbtn").on("click", function () {
-                let id = url;
-                let username = localStorage.getItem("username");
-                console.log(id, username);
                 $.ajax({
+                    type: "get",
+                    url: "../server/addcar.php",
+                    dataType: "json",
+                    data: url,
+                    success(data) {
+                        console.log(data)
+                        // alert(data)
+                    }
 
                 })
             })
@@ -65,5 +72,7 @@ $(() => {
         }
     })
 
-
+    $(".carbtn").click(function () {
+        console.log(1)
+    })
 })

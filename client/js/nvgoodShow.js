@@ -42,7 +42,7 @@ $(() => {
                              </div>
                                     </div >
                                 <div class="text">
-                                <span>${item.name}</span>
+                                <span>${item.goodsname}</span>
                                 </div>
                                 </div >
                             </a >

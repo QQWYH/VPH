@@ -4,7 +4,6 @@ $(() => {
         url: "../server/index.php",
         dataType: "json",
         success(data) {
-            console.log(data, data.msg)
             let html = data.msg.map(item => {
                 return `
                 <div class="conter-item">

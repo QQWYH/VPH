@@ -1,6 +1,6 @@
 /* 公共 */
 .header-con,.bannercn,.goods-con,.banner-con,.c-conter,.footer-con
-,.nvgoodslist-con,.nv-top,.show,.listshow,.nvgoodShow{
+,.nvgoodslist-con,.nv-top,.show,.listshow,.nvgoodShow,.carconter{
     width: 1170px;
     margin: 0 auto;
 }
@@ -120,7 +120,6 @@
 }
 
 .goods-con .goods-b .b-left{
-      background-color: red;
       width: 78px;
       height: 418px;
      position: absolute;
@@ -158,6 +157,7 @@
     width: 530px;
     height: 38px;
     padding: 10px 20px;
+    color: #000;
 }
 
 /* 商品列表 */
@@ -336,10 +336,28 @@
 }
 /* 页面商品 */
 .listshow{
-    height: 700px;
-    background-color: green;
+    height: 29000px;
 }
-
+.listshow .listshow-item{
+    display: inline-block;
+    width: 470px;
+    height: 370px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.listshow .listshow-item .img{
+    width: 470px;
+    height: 312px;
+}
+.listshow .listshow-item .img img{
+    width: 100%;
+    height: 100%;
+}
+.listshow .listshow-item .item-txt{
+    width: 450px;
+    height: 38px;
+    padding: 10px 10px;
+}
 /* 商品详情页 */
 .show{
     height: 400px;
@@ -769,4 +787,129 @@
     outline: none;
     cursor: pointer;
     margin-top: 20px;
+}
+/* 购物车 */
+.carconter{
+    height: 530px;
+    margin-top:50px;
+    padding-top: 70px;
+}
+.carconter .car-txt{
+    width: 958px;
+   min-height: 400px;
+    margin: 0 auto;
+}
+.carconter .car-txt ul{
+    width: 958px;
+    height: 40px;
+}
+.carconter .car-txt ul li{
+    display: block;
+    width: 239px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.carconter .car-txt .car-show{
+    width: 956px;
+    min-height: 400px;
+}
+.carconter .car-txt .car-show .car-list{
+    width: 956px;
+    height: 100px;
+    background-color: honeydew;
+    margin-top: 10px;
+}
+.carconter .car-txt .car-show .car-list .car-listbox{
+    width: 270px;
+    height: 100px;
+    float: left;
+}
+.carconter .car-txt .car-show .car-list .car-listbox .car-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.carconter .car-txt .car-show .car-list .car-listbox .car-img img{
+    width: 100%;
+    height: 100%;
+}
+.carconter .car-txt .car-show .car-list .car-listbox .car-text{
+    width: 170px;
+    height: 100px;
+    float: left;
+    font-size: 12px;
+    margin-top: 50px;
+}
+.carconter .car-txt .car-show .car-list .car-list-prive{
+    width: 70px;
+    height: 100px;
+    float: left;
+    margin-left: 40px;
+    /* padding-left: 30px; */
+}
+.carconter .car-txt .car-show .car-list .car-list-prive span{
+    line-height: 100px;
+   
+}
+.carconter .car-txt .car-show .car-list .car-list-count{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-left: 130px;
+}
+.carconter .car-txt .car-show .car-list .car-list-count .count{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.carconter .car-txt .car-show .car-list .car-list-count .count .leftbtn{
+    width: 20px;
+    height: 22px;
+    float: left;
+}
+.carconter .car-txt .car-show .car-list .car-list-count .count input{
+    width: 30px;
+    height: 18px;
+    float: left;
+    border: 0;
+    text-align: center;
+}
+.carconter .car-txt .car-show .car-list .car-list-count .count .rightbtn{
+    width: 20px;
+    height: 22px;
+    float: left;
+}
+.carconter .car-txt .car-show .car-list .car-list-caozuo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+}
+ .car-show .car-list .car-list-caozuo span{
+    line-height: 100px;
+    margin-left: 30px;
+    text-align: center;
+    margin-left: 60px;
+}
+.carconter .car-txt .car-count{
+    width: 958px;
+    height: 60px;
+    background-color: #666;
+}
+.carconter .car-txt .car-count .countbtn{
+    width: 200px;
+    height: 60px;
+    background-color: #f10180;
+    float: right;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+} 
+.carconter .car-txt .car-count .countbtn a{
+    width: 100px;
+    height: 60px;
+    color: #000;
 }
