@@ -44,7 +44,7 @@ $(() => {
                         <span>数量：</span>
                         <span class="count">
                             <button>-</button>
-                            <div class="count-n"><input id="num" type="text" value=""></div>
+                            <div class="count-n"><input id="num" type="text" value="1"></div>
                             <button>+</button>
                         </span>
                     </div>
@@ -60,19 +60,16 @@ $(() => {
                     type: "get",
                     url: "../server/addcar.php",
                     dataType: "json",
-                    data: url,
+                    data: { url },
                     success(data) {
                         console.log(data)
-                        // alert(data)
                     }
 
                 })
+                location.href = "../client/shoppingcar.html";
             })
 
         }
-    })
+    });
 
-    $(".carbtn").click(function () {
-        console.log(1)
-    })
 })
